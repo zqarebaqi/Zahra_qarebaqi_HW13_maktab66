@@ -4,6 +4,8 @@ $greenColor: #4caf50;
   background-color: $greenColor;
 }
 
-.table-success {
-  background-color: $greenColor;
+.table {
+  thead th {
+    background-color: $greenColor;
+  }
 }
