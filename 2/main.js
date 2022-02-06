@@ -21,27 +21,15 @@ $(".container").css({
 });
 
 // $(document).ready(function () {
-//   // $(".accordion").removeClass("active");
 //   $(".panel").hide();
-
-//   $(".accordion").click(function () {
-//     $(this).addClass("active");
-//     $(".active").next().slideDown();
-//     // $(".active").next().slideToggle();
-//     // $(this).next().removeClass("active");
-
-//     if ($(this).next().hasClass("active")) {
-//       $(this).next().removeClass("active").slideUp();
-//     } else {
-//       //
 //     }
 //   });
 
-$(document).ready(function () {
-  var allPanels = $(".panel").hide();
+// $(document).ready(function () {
+//   var allPanels = $(".panel").hide();
 
-  $(".accordion").click(function () {
-    allPanels.slideUp();
-    $(this).next().slideDown();
-  });
-});
+//   $(".accordion").click(function () {
+//     allPanels.slideUp();
+//     $(this).next().slideDown();
+//   });
+// });

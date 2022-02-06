@@ -17,7 +17,7 @@
 
   <body>
     <div class="container">
-      <button class="btn btn-success my-4">+ Add row</button>
+      <button class="btn btn-success my-4 addnewbtn">+ Add row</button>
       <table class="table table-bordered ">
         <thead class="text-white table-success">
           <tr>
@@ -27,11 +27,11 @@
             <th scope="col">Status</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody class="tbody">
           <tr>
             <td>
-              <button class="btn btn-danger">Delete</button>
-              <button class="btn btn-primary">clone</button>
+              <button class="btn btn-danger deletebtn">Delete</button>
+              <button class="btn btn-primary clonebtn">clone</button>
             </td>
             <td><input type="text" /></td>
             <td><input type="text" /></td>
@@ -68,9 +68,10 @@
         </tbody>
       </table>
 
-      <span>All rows numbers: </span></br>
+      <span >All rows numbers:<span class="allrow"></span> </span></br>
       <span>Not confrimed rows numbers : </span>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="./1.js"></script>
   </body>
